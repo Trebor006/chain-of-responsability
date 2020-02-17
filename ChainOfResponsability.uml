@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mibu.chainofresponsability.SimpleItem</OriginalElement>
+  <nodes>
+    <node x="157.0" y="0.0">com.mibu.chainofresponsability.Item</node>
+    <node x="326.0" y="231.0">com.mibu.chainofresponsability.PunishmentItem</node>
+    <node x="163.0" y="242.0">com.mibu.chainofresponsability.SimpleItem</node>
+    <node x="-293.0" y="-18.0">com.mibu.chainofresponsability.GameGenerator</node>
+    <node x="-96.0" y="-4.0">com.mibu.chainofresponsability.ItemFactory</node>
+    <node x="0.0" y="231.0">com.mibu.chainofresponsability.ChallengeItem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mibu.chainofresponsability.SimpleItem" target="com.mibu.chainofresponsability.Item">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="com.mibu.chainofresponsability.ChallengeItem" target="com.mibu.chainofresponsability.Item">
+      <point x="0.0" y="-48.5" />
+      <point x="71.5" y="206.0" />
+      <point x="182.83333333333334" y="206.0" />
+      <point x="-51.66666666666666" y="90.5" />
+    </edge>
+    <edge source="com.mibu.chainofresponsability.PunishmentItem" target="com.mibu.chainofresponsability.Item">
+      <point x="0.0" y="-48.5" />
+      <point x="400.5" y="206.0" />
+      <point x="286.16666666666663" y="206.0" />
+      <point x="51.66666666666663" y="90.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="224.5" y="206.5" />
+  <SelectedNodes>
+    <node>com.mibu.chainofresponsability.ItemFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
